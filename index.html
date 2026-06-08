@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background: linear-gradient(135deg,#0f172a,#1e293b,#111827);
+color:white;
+overflow-x:hidden;
+}
+
+header{
+background:#1e293b;
+color:white;
+padding:20px 0;
+text-align:center;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+nav{
+    display:flex;
+    gap:25px;
+}
+.hero-text{
+font-size:24px;
+line-height:2;
+max-width:800px;
+color:#d1d5db;
+margin-top:25px;
+}
+.profile{
+width:400px;
+height:500px;
+border-radius:25px;
+object-fit:cover;
+}
+
+nav a{
+color:#60a5fa;
+text-shadow:0 0 15px #60a5fa;
+}
+
+section{
+padding:50px 10%;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap: 80px;
+padding:100px 8%;
+min-height:80vh;
+}
+
+.hero-image{
+animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+
+}
+
+
+.hero h1{
+font-size:60px;
+font-weight:800;
+
+background:linear-gradient(
+90deg,
+#2563eb,
+#2380f1,
+#2360e3
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+.hero h3{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.hero img{
+width:380px;
+height:380px;
+border-radius:50%;
+object-fit:cover;
+
+box-shadow:
+0 0 20px #2563eb,
+0 0 40px #2563eb,
+0 0 60px #2563eb;
+
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-top:15px;
+}
+
+h2{
+margin-bottom:20px;
+color:#fdfdfe;
+}
+.card{
+padding:25px 35px;
+line-height:1.9;
+font-size:20px;
+}
+.card{
+background: rgba(255,255,255,0.08);
+backdrop-filter: blur(15px);
+border:1px solid rgba(255,255,255,0.1);
+border-radius:20px;
+padding:30px;
+}
+
+.skills-box{
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.15);
+color:white;
+font-size:22px;
+margin-top:20px;
+}
+.skill{
+display:none;
+}
+
+.social{
+text-align:center;
+margin-top:20px;
+}
+.certifications{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.cert-item{
+background:rgba(255,255,255,0.08);
+padding:15px 20px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.1);
+font-size:20px;
+color:white;
+}
+
+.social a{
+font-size:35px;
+margin:0 15px;
+color:#2563eb;
+}
+
+footer{
+background:#1e293b;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Portfolio</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div style="display:flex;justify-content:space-between;align-items:center;">
+
+<div style="width:60%;">
+
+<h1>Hi,I'm Jasmitha</h1>
+
+<h3>M.Tech Software Engineering Student</h3>
+
+<p class="hero-text">
+Aspiring Software Engineer with a strong foundation in software development,
+web technologies, and database management.
+
+Passionate about creating efficient, user-friendly, and innovative digital
+solutions while continuously enhancing technical and problem-solving skills.
+
+Currently pursuing M.Tech in Software Engineering at VIT University and
+actively exploring modern software engineering practices and emerging technologies.
+</p>
+</div>
+
+<div style="width:40%;text-align:right;">
+
+<img src="img/jasmi.jpeg"
+class="profile"
+style="width:450px;height:450px;border-radius:50%;border:5px solid #2563eb;"><div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+<p>
+Hello! I'm Jasmitha, currently pursuing M.Tech in Software Engineering at VIT University (2024–2029).
+<p>
+    <br>
+</p>
+I am passionate about technology and enjoy exploring various areas of software development, including web technologies, programming, database management, and software engineering practices.
+</p>
+
+<br>
+
+<p>
+My academic journey has helped me develop strong analytical thinking, problem-solving abilities, and technical skills. I enjoy working on projects that provide practical solutions to real-world challenges and help improve user experiences.
+</p>
+
+<br>
+
+<p>
+Apart from academics, I have a keen interest in learning new technologies, improving my coding skills, and staying updated with industry trends. I believe in continuous learning, teamwork, adaptability, and maintaining a positive approach toward challenges.
+</p>
+
+<br>
+
+<p>
+My goal is to become a skilled software professional who can contribute to innovative projects and create impactful technological solutions.
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+<h3>M.Tech Software Engineering</h3>
+<p>VIT University</p>
+<p>2024 - 2029</p>
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills-box">
+<span>HTML,</span>
+<span>CSS,</span>
+<span>JavaScript,</span>
+<span>Java,</span>
+<span>Python,</span>
+<span>C++,</span>
+<span>SQL,</span>
+<span>MySQL</span>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Developed a responsive personal portfolio website.</p>
+</div>
+
+<div class="card">
+<h3>Online Grocery Order Management System</h3>
+<p>Inventory and customer order management application.</p>
+</div>
+
+<div class="card">
+<h3>Stack and Queue Visualization Project</h3>
+<p>Educational DSA visualization project with animations.</p>
+</div>
+
+<div class="card">
+<h3>Requirements Engineering Project</h3>
+<p>Requirement analysis and software modeling project.</p>
+</div>
+
+</section>
+
+<section>
+
+<h2>Certifications</h2>
+
+<div class="certifications">
+
+<div class="cert-item">
+English Higher Typing - Distinction
+</div>
+
+<div class="cert-item">
+English Lower Typing - Distinction
+</div>
+
+<div class="cert-item">
+Tamil Lower Typing - First Class
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Reach Out</h2>
+
+<div class="card">
+
+<p style="margin-bottom:15px;"><strong>Email:</strong> sjasmitha2006@gmail.com</p>
+
+<p style="margin-bottom:15px;"><strong>Phone:</strong> +91 9486257175</p>
+
+<p style="margin-bottom:15px;"><strong>University:</strong> VIT University</p>
+<br>
+
+<a href="Jasmitha Resume 2026.pdf" class="btn" download>
+Download Resume
+</a>
+<h2 style="margin-top:50px;">
+Let's Connect
+</h2>
+
+
+<div class="social">
+
+<a href="https://www.linkedin.com/in/jasmithas" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://www.instagram.com/jasmitha_jas_4?igsh=OWxscjB2YWhnOWFj" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://github.com/S-Jasmitha" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
+
+</div>
+
+</section>
+<footer>
+<p>© 2026 Jasmitha. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
